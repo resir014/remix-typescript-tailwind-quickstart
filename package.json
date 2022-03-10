@@ -1,0 +1,43 @@
+{
+  "name": "remix-typescript-tailwind-quickstart",
+  "private": true,
+  "description": "Get started on Remix with TypeScript and Tailwind CSS in seconds.",
+  "license": "Unlicense",
+  "sideEffects": false,
+  "scripts": {
+    "build": "cross-env NODE_ENV=production remix build",
+    "dev": "cross-env NODE_ENV=development remix dev",
+    "format": "prettier --write \"./app/**/*.{js,jsx,ts,tsx}\" \"./*.{js,ts}\"",
+    "lint": "eslint \"app/**/*.{ts,tsx}\"",
+    "postinstall": "remix setup",
+    "start": "cross-env NODE_ENV=production remix-serve build",
+    "type-check": "tsc",
+    "validate": "yarn lint && yarn type-check"
+  },
+  "dependencies": {
+    "@remix-run/react": "^1.2.3",
+    "@remix-run/serve": "^1.2.3",
+    "@twind/tailwind": "^1.0.0-next.16",
+    "cross-env": "^7.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "remix": "^1.2.3",
+    "twind": "^1.0.0-next.37"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.2.3",
+    "@remix-run/eslint-config": "^1.2.3",
+    "@types/react": "^17.0.24",
+    "@types/react-dom": "^17.0.9",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "stylelint": "^14.5.3",
+    "stylelint-config-recommended": "^7.0.0",
+    "typescript": "^4.5.5"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
