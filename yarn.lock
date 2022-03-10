@@ -496,7 +496,7 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.6.0.tgz#3c7c9c46e678feefe7a2e5bb609d3dbd665ffb3f"
   integrity sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==
 
-"@swc/helpers@^0.3.2", "@swc/helpers@^0.3.3":
+"@swc/helpers@^0.3.3":
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.3.6.tgz#b41e77dbf14e9cb138988484563ad9680ae5dc3d"
   integrity sha512-xVl7Sddrl9/eMjEMqkH9lT8fLOGCuWHH9VmR2IBKQ8xTcjA6UQw4O3/4oS3xnyZHLtL9vC3P+C0kLneHpiqeEg==
@@ -522,29 +522,27 @@
     lz-string "^1.4.4"
     pretty-format "^27.0.2"
 
-"@twind/preset-autoprefix@1.0.0-next.16":
-  version "1.0.0-next.16"
-  resolved "https://registry.yarnpkg.com/@twind/preset-autoprefix/-/preset-autoprefix-1.0.0-next.16.tgz#d496b87ed2c3e37b4f33811fe8f1c6049b1fa7d2"
-  integrity sha512-JbPY5cG9wFewvewKmqJ5uGBu+gkhjiRU0vdPI0C0PQ3n6of+J2Y8Ayra6DRvkUFgzszxXjYoGXsQsKen+fHHOg==
+"@twind/preset-autoprefix@^1.0.0-next.37":
+  version "1.0.0-next.37"
+  resolved "https://registry.yarnpkg.com/@twind/preset-autoprefix/-/preset-autoprefix-1.0.0-next.37.tgz#1eb2d4af05f640c8b5e472aa0269a9b94ecd7ede"
+  integrity sha512-eZkZVZZ+psdC9/2sZVLBRVpbMFvbxfU6t/1JgOKCzPPHvGjmLIsGM++HAHimSoyxjwYqKWHk0Q0S6+5xQfAkTQ==
   dependencies:
-    "@swc/helpers" "^0.3.2"
+    "@swc/helpers" "^0.3.3"
     style-vendorizer "^2.1.1"
 
-"@twind/preset-tailwind@1.0.0-next.16":
-  version "1.0.0-next.16"
-  resolved "https://registry.yarnpkg.com/@twind/preset-tailwind/-/preset-tailwind-1.0.0-next.16.tgz#e954419bd3f9dcaeb05aebfe302ef6374dcd6d5c"
-  integrity sha512-HITRgT9XBrZ9zv9e5ZFtsNk0110tTWZ475PaOvtLJRaOSGfKpi9TbqFUMw8CH/erhb1DUUrXhNAGWq4QQ7nWFw==
+"@twind/preset-tailwind@^1.0.0-next.37":
+  version "1.0.0-next.37"
+  resolved "https://registry.yarnpkg.com/@twind/preset-tailwind/-/preset-tailwind-1.0.0-next.37.tgz#8b003f18ed8dd65ed9b3f610315fa99880d79f30"
+  integrity sha512-cp+M/Vkrh6Bx/O9Djd++goYcm/Z5kNnleY/jKHx57eMVTwYsdud6n9pYCp0sVN6mO5HM7XqY3fyEhzlLO66Gxw==
   dependencies:
-    "@swc/helpers" "^0.3.2"
+    "@swc/helpers" "^0.3.3"
 
-"@twind/tailwind@^1.0.0-next.16":
-  version "1.0.0-next.16"
-  resolved "https://registry.yarnpkg.com/@twind/tailwind/-/tailwind-1.0.0-next.16.tgz#10f83fb5e791868cb21ddac3a0b110153719adcb"
-  integrity sha512-yaCw0Wi+siMYHu00dSwSW7Y0Y7S+R1y4OeLSjBGO2b+Bxp3MkXSiUR+fN5/lHA6bF83OhJKBdW9eeHZ01FmqRQ==
+"@twind/with-remix@^1.0.0-next.37":
+  version "1.0.0-next.37"
+  resolved "https://registry.yarnpkg.com/@twind/with-remix/-/with-remix-1.0.0-next.37.tgz#8a798ec54e3bf1c6a1dbbfed8344fb1d7ccdc145"
+  integrity sha512-znUwY9fr+JR+7RDhA681CiOHDT9qPhmZDcEROLmSH24dRHacqyagL6jPBs3mWLuIqPcLHoMLwqCzfYRo6+Yr5Q==
   dependencies:
-    "@swc/helpers" "^0.3.2"
-    "@twind/preset-autoprefix" "1.0.0-next.16"
-    "@twind/preset-tailwind" "1.0.0-next.16"
+    "@swc/helpers" "^0.3.3"
 
 "@types/acorn@^4.0.0":
   version "4.0.6"

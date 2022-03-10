@@ -1,5 +1,9 @@
 import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from 'remix';
 import type { MetaFunction } from 'remix';
+import install from '@twind/with-remix';
+import config from '../twind.config.js';
+
+install(config);
 
 export const meta: MetaFunction = () => {
   return { title: 'New Remix App' };
